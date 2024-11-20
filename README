@@ -1,0 +1,62 @@
+# Sistema de Gestão de Clientes
+
+Este é um sistema de gestão de clientes desenvolvido em Python utilizando PyQt5 para a interface gráfica e MySQL para o banco de dados.
+
+## Estrutura do Projeto
+
+. ├── pycache/ ├── .gitignore ├── cliente.py ├── cliente.ui ├── Converter frame ui to py.txt ├── Converter image qrc to py.txt ├── Create python exe.txt ├── dadosCliente.py ├── dadosCliente.ui ├── icon_adicionar.py ├── icon_adicionar.qrc ├── icon_alterar.py ├── icon_alterar.qrc ├── icon_bancos.py ├── icon_bancos.qrc ├── icon_cadastrar.py ├── icon_cadastrar.qrc ├── icon_caixa.py ├── icon_caixa.qrc ├── icon_cancelar.py ├── icon_cancelar.qrc ├── icon_cliente.py ├── icon_cliente.qrc ├── icon_consultar.py ├── icon_consultar.qrc ├── icon_excluir.py ├── icon_excluir.qrc ├── icon_fornecedor.py ...
+
+
+## Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd seu-repositorio
+    ```
+3. Crie um ambiente virtual e ative-o:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+    ```
+4. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Uso
+
+1. Execute o arquivo principal:
+    ```sh
+    python main.py
+    ```
+
+## Estrutura do Código
+
+- `main.py`: Arquivo principal que inicializa a aplicação.
+- `cliente.py`: Contém a lógica e a interface para a gestão de clientes.
+- `dadosCliente.py`: Contém a lógica e a interface para a gestão dos dados dos clientes.
+- `*.ui`: Arquivos de interface gerados pelo Qt Designer.
+- `*.qrc`: Arquivos de recursos contendo ícones e imagens.
+
+## Funcionalidades
+
+- **Cadastro de Clientes**: Permite adicionar novos clientes ao sistema.
+- **Consulta de Clientes**: Permite consultar os dados dos clientes cadastrados.
+- **Alteração de Clientes**: Permite alterar os dados dos clientes cadastrados.
+- **Exclusão de Clientes**: Permite excluir clientes do sistema.
+
+## Contribuição
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4. Faça o push para a branch (`git push origin feature/nova-feature`).
+5. Crie um novo Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

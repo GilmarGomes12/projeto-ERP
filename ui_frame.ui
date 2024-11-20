@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lb_logoEmpresa">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>391</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/icons/icons/logo_empresa_original.png);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_cliente">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/cliente.png</normaloff>:/icons/icons/cliente.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_fornecedor">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/fornecedor.png</normaloff>:/icons/icons/fornecedor.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_produtos">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/produtos.png</normaloff>:/icons/icons/produtos.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_vendas">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/venda.png</normaloff>:/icons/icons/venda.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_pagar">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/contasPagar.png</normaloff>:/icons/icons/contasPagar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_bancos">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/banco.png</normaloff>:/icons/icons/banco.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_receber">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/receber.png</normaloff>:/icons/icons/receber.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_caixa">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/caixa.png</normaloff>:/icons/icons/caixa.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_sair">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/icons/sair.png</normaloff>:/icons/icons/sair.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>728</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionCliente"/>
+    <addaction name="actionFornecedor"/>
+    <addaction name="actionUsuario"/>
+   </widget>
+   <widget class="QMenu" name="menuOperacoes">
+    <property name="title">
+     <string>Operacoes</string>
+    </property>
+    <widget class="QMenu" name="menuSaida_de_produtos">
+     <property name="title">
+      <string>Saida de produtos</string>
+     </property>
+     <addaction name="actionVenda"/>
+     <addaction name="actionConsumo_de_produtos"/>
+    </widget>
+    <widget class="QMenu" name="menuEstoque">
+     <property name="title">
+      <string>Estoque</string>
+     </property>
+     <addaction name="actionSaldo"/>
+    </widget>
+    <widget class="QMenu" name="menuCompras">
+     <property name="title">
+      <string>Compras</string>
+     </property>
+     <addaction name="actionCompra"/>
+     <addaction name="actionPedido"/>
+     <addaction name="actionCancelar"/>
+    </widget>
+    <addaction name="menuSaida_de_produtos"/>
+    <addaction name="menuEstoque"/>
+    <addaction name="menuCompras"/>
+   </widget>
+   <widget class="QMenu" name="menuFinanceiro">
+    <property name="title">
+     <string>Financeiro</string>
+    </property>
+    <addaction name="actionCaixa"/>
+    <addaction name="actionBancos"/>
+    <addaction name="actionCantas_pagar"/>
+    <addaction name="actionContas_Receber"/>
+    <addaction name="actionContas_Recebidas"/>
+   </widget>
+   <widget class="QMenu" name="menuConsultas">
+    <property name="title">
+     <string>Consultas</string>
+    </property>
+    <widget class="QMenu" name="menuVendas">
+     <property name="title">
+      <string>Vendas</string>
+     </property>
+     <addaction name="actionGeral"/>
+     <addaction name="actionResumido"/>
+    </widget>
+    <widget class="QMenu" name="menuConsumo">
+     <property name="title">
+      <string>Consumo</string>
+     </property>
+     <addaction name="actionGeral_2"/>
+     <addaction name="actionResumo"/>
+    </widget>
+    <addaction name="menuVendas"/>
+    <addaction name="menuConsumo"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuOperacoes"/>
+   <addaction name="menuFinanceiro"/>
+   <addaction name="menuConsultas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCliente">
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="actionFornecedor">
+   <property name="text">
+    <string>Fornecedor</string>
+   </property>
+  </action>
+  <action name="actionUsuario">
+   <property name="text">
+    <string>Usuario</string>
+   </property>
+  </action>
+  <action name="actionVenda">
+   <property name="text">
+    <string>Venda</string>
+   </property>
+  </action>
+  <action name="actionConsumo_de_produtos">
+   <property name="text">
+    <string>Consumo de produtos</string>
+   </property>
+  </action>
+  <action name="actionSaldo">
+   <property name="text">
+    <string>Saldo</string>
+   </property>
+  </action>
+  <action name="actionCompra">
+   <property name="text">
+    <string>Compra</string>
+   </property>
+  </action>
+  <action name="actionPedido">
+   <property name="text">
+    <string>Pedido</string>
+   </property>
+  </action>
+  <action name="actionCancelar">
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </action>
+  <action name="actionCaixa">
+   <property name="text">
+    <string>Caixa</string>
+   </property>
+  </action>
+  <action name="actionBancos">
+   <property name="text">
+    <string>Bancos</string>
+   </property>
+  </action>
+  <action name="actionCantas_pagar">
+   <property name="text">
+    <string>Cantas pagar</string>
+   </property>
+  </action>
+  <action name="actionContas_Receber">
+   <property name="text">
+    <string>Contas Receber</string>
+   </property>
+  </action>
+  <action name="actionContas_Recebidas">
+   <property name="text">
+    <string>Contas Recebidas</string>
+   </property>
+  </action>
+  <action name="actionGeral">
+   <property name="text">
+    <string>Geral</string>
+   </property>
+  </action>
+  <action name="actionResumido">
+   <property name="text">
+    <string>Resumido</string>
+   </property>
+  </action>
+  <action name="actionGeral_2">
+   <property name="text">
+    <string>Geral</string>
+   </property>
+  </action>
+  <action name="actionResumo">
+   <property name="text">
+    <string>Resumo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
